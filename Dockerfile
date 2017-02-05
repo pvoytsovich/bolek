@@ -23,4 +23,4 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log \
 	&& ln -sf /dev/stderr /var/log/nginx/error.log
 
 CMD ["nginx", "-g", "daemon off;"]
-RUN > /usr/share/nginx/html/index.html && echo "Hello Lolek!" >> /usr/share/nginx/html/index.html
+RUN > /usr/share/nginx/html/index.html && echo "Hello Bolek!" >> /usr/share/nginx/html/index.html
